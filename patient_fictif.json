@@ -1,0 +1,11 @@
+{
+  "patient_id": "FICTIF-001",
+  "age_actuel": 22,
+  "sexe": "F",
+  "diagnostic": "LAL",
+  "radiotherapie": "non_recue_declaree",
+  "greffe": "non_recue_declaree",
+  "expositions": {"anthracyclines": "recues", "corticosteroides": "recus", "autres_traitements": "inconnus"},
+  "anthracyclines_doses_mg_m2": null,
+  "complications": "non_renseignees"
+}

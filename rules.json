@@ -1,0 +1,11 @@
+{
+  "reference": "Children's Oncology Group Long-Term Follow-Up Guidelines v6.0 (October 2023)",
+  "status": "prototype_non_valide",
+  "rules": [
+    {"id":"COG-33","section":33,"page":38,"trigger":"anthracyclines","domain":"Hématologie","risk":"Leucémie aiguë myéloïde secondaire","required":["date_derniere_exposition"],"review":"Évaluer la pertinence de la section et son horizon d'application selon les antécédents d'exposition.","source":"COG LTFU v6 §33"},
+    {"id":"COG-34","section":34,"page":39,"trigger":"anthracyclines","domain":"Cardiologie","risk":"Cardiomyopathie et autres complications cardiaques","required":["anthracyclines_molecules","anthracyclines_doses_mg_m2","age_premiere_exposition","autres_expositions_cardiotoxiques"],"review":"Vérifier l'équivalence isotoxique et les conditions de la surveillance cardiaque avant de fixer un calendrier.","source":"COG LTFU v6 §34"},
+    {"id":"COG-37","section":37,"page":43,"trigger":"corticosteroides","domain":"Santé osseuse","risk":"Diminution de densité minérale osseuse","required":["date_fin_traitement","antecedents_fractures","bilan_osseux_precedent"],"review":"Apprécier la nécessité et les modalités de bilan osseux selon la section complète.","source":"COG LTFU v6 §37"},
+    {"id":"COG-38","section":38,"page":45,"trigger":"corticosteroides","domain":"Ostéoarticulaire","risk":"Ostéonécrose","required":["douleurs_articulaires","limitation_mobilite","age_exposition_corticoides"],"review":"Examiner les symptômes, antécédents et facteurs de risque.","source":"COG LTFU v6 §38"},
+    {"id":"COG-39","section":39,"page":46,"trigger":"corticosteroides","domain":"Ophtalmologie","risk":"Cataracte","required":["symptomes_visuels","examens_ophtalmologiques_precedents"],"review":"Déterminer la surveillance ophtalmologique adaptée après validation médicale.","source":"COG LTFU v6 §39"}
+  ]
+}
